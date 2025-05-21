@@ -3,7 +3,7 @@ package com.votre_groupe.notificationservice.controller;
 
 import com.votre_groupe.notificationservice.model.Notification;
 import com.votre_groupe.notificationservice.service.NotificationService;
-import com.votre_groupe.notificationservice.dto.NotificationRequest; // DTO pour les requêtes entrantes
+import com.votre_groupe.notificationservice.dto.NotificationRequest; // DTO (Data Transfer Object) pour les requêtes entrantes
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
